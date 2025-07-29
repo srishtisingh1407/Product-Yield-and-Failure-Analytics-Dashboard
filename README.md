@@ -1,6 +1,8 @@
-# Product Yield and Failure Analytics Dashboard
+# 📊 Product Yield and Failure Analytics Dashboard
 
 A Python dashboard that analyzes factory test data for NAND flash memory production. It tracks unit-level results, calculates overall yield, and visualizes failure patterns and time-to-repair (TTR) metrics.
+
+---
 
 ## ✅ Features
 - 📈 **Compute yield** across production cycles
@@ -17,7 +19,8 @@ Product-Yield-Analytics/
 ├── analytics_dashboard.py     # Main Python script
 ├── factory_data.csv           # Sample NAND factory data
 ├── README.md                  # This file
-🐍 Requirements
+```
+## 🐍 Requirements
 Make sure Python 3.x is installed along with:
 
 bash
@@ -37,7 +40,7 @@ This will:
 
 ⏱️ Display a histogram of TTR (repair time) for failed units
 
-🧠 Sample Output
+## 🧠 Sample Output
 Terminal:
 
 vbnet
